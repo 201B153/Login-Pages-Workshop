@@ -1,5 +1,6 @@
 import jwt from 'jsonwebtoken';
 
+// generates token
 export const generateToken = (user) => {
   return jwt.sign(
     {
@@ -12,6 +13,7 @@ export const generateToken = (user) => {
     { expiresIn: '30d' }
   );
 };
+// Checks Token Validattion
 export const isAuth = (req, res, next) => {
   const authorization = req.headers.authorization;
   if (authorization) {

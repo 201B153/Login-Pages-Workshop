@@ -7,7 +7,7 @@ import { isAdmin, isAuth } from '../utils.js';
 const upload = multer();
 
 const uploadRouter = express.Router();
-
+// API key missing
 uploadRouter.post(
   '/',
   // isAuth,

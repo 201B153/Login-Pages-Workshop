@@ -14,7 +14,7 @@ userRouter.get('/home', async (req, res) => {
   console.log('Api- Home');
   res.status(202).send('Private Protected Route - Api- Home');
 });
-
+// Enable Auth after reviewing JWTtoken
 userRouter.get(
   '/',
   // isAuth,

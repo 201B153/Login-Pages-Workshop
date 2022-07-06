@@ -4,7 +4,7 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import userRouter from './routes/userRoutes.js';
-//import expressAsyncHandler from 'express-async-handler';
+import expressAsyncHandler from 'express-async-handler';
 
 dotenv.config();
 
