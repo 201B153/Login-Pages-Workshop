@@ -20,7 +20,7 @@ function App() {
   }
 
   useEffect(() => {
-    /* global google object */
+    /* global google */
     google.accounts.id.initialize({
       client_id:
         '804865613536-l5qf8k74vbmhq2t9qgitbra5ce99unmm.apps.googleusercontent.com',
