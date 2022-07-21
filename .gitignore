@@ -18,6 +18,10 @@ dump-files
 *build
 build
 
+Login-Page
+/Login-Page
+*Login-Page
+
 # misc
 .DS_Store
 .env.local
